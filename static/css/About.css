@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.mission_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 100px 0px;
+}
+
+
+
+.mission_info h1 {
+    width: 50%;
+    font-size: 80px;
+    font-family: "Syne", sans-serif;
+}
+
+.mission_info p {
+    width: 50%;
+    font-size: 21px;
+    font-family: "Open Sans", sans-serif;
+    color: #949494;
+    line-height: 39px;
+    font-weight: 600;
+}
+
+.misson_imgs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.misson_imgs img {
+    position: relative;
+}
+
+.misson_imgs .img_one {
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    z-index: 5;
+
+}
+
+.misson_imgs .img_two {
+    position: absolute;
+    transform: rotate(90deg);
+    right: 60px;
+    bottom: -80px;
+    z-index: 5;
+
+}
+
+.about_link h1 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Syne", sans-serif;
+    margin-bottom: 50px;
+
+}
+
+.about_link a {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    font-family: "Inter", serif;
+    text-transform: capitalize;
+    color: #949494;
+}
+
+.about_link .row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 150px;
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdulhamid</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+</head>
+
+<body>
+  <!-- header section starts -->
+
+  <nav class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="{% static 'img/Logo.png' %}" alt="" />
+      </div>
+
+      <div class="mainmenu">
+        <ul>
+          <li><a href="/">home</a></li>
+          <li><a href="./pages/About.html">about me</a></li>
+          <li><a href="./pages/MyWorks.html ">my works</a></li>
+          <li><a href="./pages/Contact.html" class="btn">contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- header section ends -->
+
+  <!-- home section starts -->
+
+  <section class="home" id="home">
+    <div class="home-contact">
+      <h1>
+        Adaptive Logo Design <br />
+        for Your Brand
+      </h1>
+      <button>
+        Explore works <i class="fa-solid fa-arrow-right-long"></i>
+      </button>
+      <img src="{% static 'img/Vector 7.svg' %}" alt="" />
+    </div>
+  </section>
+
+  <!-- home section ends -->
+
+  <!-- about section starts -->
+
+  <section class="about" id="about">
+    <div class="about-contact">
+      <div class="container">
+        <div class="about-text">
+          <h2>
+            Let’s get know <br />
+            about me closer
+          </h2>
+          <p>
+            Aaronn is a New York-based visual designer focusing on branding
+            <br />
+            and visual identity. Her portfolio showcases her wide range of
+            <br />
+            work, spanning books, posters and web design.
+          </p>
+          <button>Discover More About Me</button>
+          <img src="{% static 'img/Vector 6.svg' %}" alt="" />
+        </div>
+
+        <div class="about-img">
+          <img src="{% static 'img/Rectangle 361.png' %}" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section ends -->
+
+  <!-- my works section starts -->
+
+  <section class="works" id="works">
+    <div class="works-heading">
+      <h2>My Projects Highlight</h2>
+      <button>
+        Explore works <i class="fa-solid fa-arrow-right-long"></i>
+      </button>
+      <img src="{% static 'img/Vector 7.svg' %}" alt="" />
+    </div>
+
+    <div class="works-2 container">
+      <div class="works-2-box">
+        <div class="works-2-image">
+          <a href="./pages/Project.html">
+
+            <img src="{% static 'img/img-1.png' %}" alt="" />
+          </a>
+        </div>
+
+        <div class="works-2-text">
+          <h3>Brand Journey Improvements</h3>
+          <h5>Client: <span>Organc</span></h5>
+          <h5>Work: <span>Branding Logo design</span></h5>
+        </div>
+      </div>
+
+      <div class="works-2-box">
+        <div class="works-2-image">
+          <a href="./pages/Project.html">
+
+
+            <img src="{% static 'img/img-2.png' %}" alt="" />
+          </a>
+        </div>
+
+        <div class="works-2-text">
+          <h3>Brand Grouping</h3>
+          <h5>Client: <span>FR</span></h5>
+          <h5>Work: <span>Branding Logo design</span></h5>
+        </div>
+      </div>
+
+      <div class="works-2-box">
+        <div class="works-2-image">
+          <a href="./pages/Project.html">
+            <img src="{% static 'img/img-3.png' %}" alt="" />
+          </a>
+        </div>
+
+        <div class="works-2-text">
+          <h3>NFT Glimps</h3>
+          <h5>Client: <span>Rumanda</span></h5>
+          <h5>Work: <span>NFT Design</span></h5>
+        </div>
+      </div>
+
+      <div class="works-2-box">
+        <div class="works-2-image">
+          <a href="./pages/Project.html">
+            <img src="{% static 'img/img-4.png' %}" alt="" />
+          </a>
+        </div>
+
+        <div class="works-2-text">
+          <h3>Brand Suggestions</h3>
+          <h5>Client: <span>T3d</span></h5>
+          <h5>Work: <span>NFT logo</span></h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="works-testimonial container">
+      <div class="testimonail">
+        <h2>Testimonial</h2>
+        <img src="{% static 'img/icon-img.png' %}" alt="" />
+        <img src="{% static 'img/Vector 7.svg' %}" alt="" />
+      </div>
+
+      <p>
+        “Aaronn was fantastic to work with from start to finish. We were
+        looking for a simple, stand-out logo and <br />
+        he delivered. I tried designing the logo myself thinking I wouldn’t
+        need to pay the money for a <br />
+        professional graphic designer but I was very wrong. Working with
+        Aaronn was worth every penny and was <br />
+        surprisingly affordable! I remember him saying simplicity is key to a
+        successful logo and boy he was right. <br />
+        I can’t thank Aaronn enough for his effort and professionalism. I
+        would recommend him to anyone looking <br />
+        for a design!”
+      </p>
+      <h3>-Martin lee</h3>
+    </div>
+  </section>
+
+  <!-- my works section ends -->
+
+
+
+
+  <!-- footer section starts -->
+
+  <footer>
+    <section class="footer" id="footer">
+      <h3 class="footer-heading">Get in Touch With Us</h3>
+      <h2>shahin@gmail.com</h2>
+
+      <div class="footer-details container">
+        <div class="footer-img">
+          <i class="fa-brands fa-square-facebook"></i>
+          <img src="{% static 'img/Group 5139764.svg' %}" alt="" />
+        </div>
+
+        <div>
+          <a href="#">Street Avenue 21, CA</a> <br />
+          <a href="#">0-8-00-888- <br />000</a>
+        </div>
+
+        <div>
+          <a href="#">+9 0283353</a> <br />
+          <div class="footer_link">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="copy-right">
+        <p>&copy;2023. Ideapeel. All rights reserved.</p>
+      </div>
+    </section>
+  </footer>
+
+  <!-- footer section ends -->
+</body>
+
+</html>

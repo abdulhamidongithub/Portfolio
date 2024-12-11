@@ -1,0 +1,68 @@
+/* General styles */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.gallery-row {
+    display: grid;
+    gap: 50px;
+}
+
+/* 1-qator uchun (3 ta element) */
+.gallery-row.three-items {
+    grid-template-columns: repeat(3, 1fr); /* 3 ta ustun */
+}
+
+/* 2-qator uchun (2 ta element) */
+.gallery-row.two-items {
+    grid-template-columns: repeat(2, 1fr); /* 2 ta ustun */
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #1c1c1e;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: translateY(-8px);
+}
+
+.gallery-item img {
+    width: 100%;
+    border-bottom: 1px solid #333;
+    border-radius: 12px 12px 0 0;
+}
+
+.gallery-info {
+    padding: 15px;
+}
+
+.gallery-info .title {
+    font-size: 14px;
+    color: #F4F7FA;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.gallery-info .subtitle {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+
+.gallery-section button{
+    display: block;
+
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
