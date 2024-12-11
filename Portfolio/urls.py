@@ -8,4 +8,5 @@ from mainapp.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', Home.as_view(), name="home"),
+    path('about/', About.as_view(), name="about"),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
