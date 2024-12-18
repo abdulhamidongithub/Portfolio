@@ -1,0 +1,164 @@
+{% extends 'header.html' %}
+
+{% block content %}
+
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Presentations</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Project.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- header section starts -->
+
+    <nav class="header">
+    <div class="container">
+
+      <div class="mainmenu">
+        <ul>
+          <li><a href="/">home</a></li>
+          <li><a href="/about/">about me</a></li>
+          <li><a href="/myworks/">my works</a></li>
+          <li><a href="/ai_applications/">AI Apps for Education</a></li>
+          <li><a href="/contact/" class="btn">contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!-- header section ends -->
+
+    <!-- about section starts -->
+    <section class="all_hero">
+        <img src="../img/Vector 9.svg" alt="" />
+        <div class="container">
+            <h1>AI Presentations</h1>
+            <p>Slidesgo/Gamma/Presentations.ai</p>
+
+        </div>
+    </section>
+    <!-- about section end -->
+
+    <main class="projects">
+        <!-- Main Project Section -->
+        <div class="main-project">
+             <section class="main-project">
+              <div class="container">
+                <div class="project">
+                    <h2>Slidesgo Presentation</h2>
+                    <div class="pdf-container">
+                        <!-- Embed PDF File -->
+                        <embed src="{% static 'slidesgo.pdf' %}" type="application/pdf" width="100%" height="500px" />
+                    </div>
+                     </div>
+                </div>
+            </section>
+
+            <div class="container">
+                <div class="project">
+                    <div class="project-details">
+                        <p>Pros: User-friendly interface. I liked it as it has other services like lesson-planning and quizzes.
+                            Incredibly fast to generate presentations. You can choose one of the 4-5 options for the design and it made a cool one I guess.
+                            The best part is that you can change anything you want
+                            just like you do on a PPT file. <br><br>
+
+                            Cons: You cannot write your expectations about the content as it gives you a space for the title only.
+                            The presentation covered the topic to some extent, however, I did not see any specifications or
+                            examples related to the topic. The topic was “Gamification in Leetcode’s case”.
+                            It mentioned badges and competitions as examples in general, but did not name any specific ones.</p>
+                    </div>
+                </div>
+
+                <section class="main-project">
+              <div class="container">
+                <div class="project">
+                    <h2>Gamma Presentation</h2>
+                    <div class="pdf-container">
+                        <!-- Embed PDF File -->
+                        <embed src="{% static 'gamma.pdf' %}" type="application/pdf" width="100%" height="500px" />
+                    </div>
+                     </div>
+                </div>
+            </section>
+
+            <div class="container">
+                <div class="project">
+                    <div class="project-details">
+                        <p>Gamma gives more freedom as you can either give your notes about the presentation
+                            or just the title only based on your preference. This allows you to include your own thoughts,
+                            examples from the very get-go. You have more options to customize the design, colors and the
+                            fonts. AI image generation also looks great. Plus, I liked the way it allows you to choose
+                            the types of images to use such as AI-images or images from free sources!
+                            Gamma did a little bit better job with the content as it tried to generate an image
+                            that just looks like the image from the Leetcode platform itself, but you can notice that
+                            it is AI as some letters are confusing. <br><br>
+
+                            Also, compared to the other two, Gamma gives you more options even when exporting your work.
+                            You can either create a public link for different purposes or download it in different formats.
+                            The content coverage also seems wider compared with slidesgo. I have seen examples,
+                            some numbers to make the thoughts in it more reliable.</p>
+                    </div>
+                </div>
+
+
+                <div class="project">
+                    <div class="img_flex">
+                        <img src="../img/ProjectImg2.png" alt="">
+                        <img src="../img/ProjectImg3.png" alt="">
+                    </div>
+                    <div class="project-details">
+                        <h2>Presentations.ai</h2>
+                        <p>I see almost the same features in presentations.ai with gamma.app.
+                            I find the design much more creative compared with gamma and slidesgo.
+                            The design looks classic, but in some modern way. I have no idea how to describe it properly.
+                            It is simple, but appealing at the same time(unlike the one from slidesgo).
+                            Variety of structures are used to deliver the information in this app.
+                            But compared with gamma, it does not allow you to input much longer texts to describe your topic.
+
+                            <br> <br>
+                            The only problem I came across with this app is that it did not allow me to export my work
+                            as a single file on a free plan. It kept asking me to pay for it. And even the embedded link
+                            did not work to show the presentation here on my website.
+                        </p>
+                    </div>
+
+                    <div class="project-details">
+                        <h2>Conclusion</h2>
+                        <p>Slidesgo.com. The content generated seems too general to me.
+                            I guess it lacks creativity in design compared with the other two as it used the
+                            same template twice in my case. I chose different options in two cases though.
+                            I would use it if there are no other options and I’m short on time.
+                            <br> <br>
+                            Gamma.app. It gave me more detailed content with examples, specifications.
+                            I liked the design as it used different types of layouts to deliver the information.
+                            I’d use it in any case as I’m not good at designs. I guess I cannot do a presentation
+                            this good so I’d prefer to provide the requirements and ask this app to do it for me.
+                            <br> <br>
+                            Presentations.ai. The same opinions with the ones about gamma.app. However, unlike
+                            gamma, the free plan is very limited when it comes to exporting the output for future use.
+
+                            <br> <br>Overall, I would definitely use one of these apps to create presentations
+                            as I do not have a good taste in design. Not only the design, they also help you with
+                            the organization of your thoughts or even content generation although you will have to
+                            add some specific thoughts and examples. And they do all of these in just 2-3 minutes.
+
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+             </section>
+        </div>
+
+    </main>
+
+    
+
+{% endblock %}
