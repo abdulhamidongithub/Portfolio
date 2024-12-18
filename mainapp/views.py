@@ -20,3 +20,5 @@ class MyWorksView(View):
 class ProjectView(View):
     def get(self, request):
         return render(request, "project.html")
+
+

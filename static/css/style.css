@@ -196,6 +196,10 @@ button:hover {
 
 .about-img img {
     width: 100%;
+    max-width: 400px; /* Limit the maximum width */
+    height: auto; /* Maintain the aspect ratio */
+    margin: 0 auto; /* Center the image if necessary */
+    display: block; /* Remove any inline display issues */
 }
 
 .about-text img {
