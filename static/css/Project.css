@@ -11,6 +11,10 @@
     /* background-color: red; */
 }
 
+.project-video {
+    width: 50%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the video horizontally */
+}
 
 .main-project .project .project-details {
     width: 60%;
